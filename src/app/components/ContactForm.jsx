@@ -24,7 +24,7 @@ const ContactForm = () => {
         number: fields.number,
         message: fields.message,
       };
-      const res = await fetch("http://localhost:3000/api/backend/", {
+      const res = await fetch("api/backend/", {
         method: "POST",
         body: JSON.stringify(formData),
       });
