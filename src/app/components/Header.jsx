@@ -1,11 +1,10 @@
 "use client";
 import Link from "next/link";
 import Image from "next/image";
-import Nav from "./Nav";
+import { Nav } from "./index";
 import { useState } from "react";
 
 const Header = () => {
-  console.log("component rerendering");
   const [toggle, setToggle] = useState(false);
   return (
     <header className="px-4 flex justify-between items-center shadow-customShadow">

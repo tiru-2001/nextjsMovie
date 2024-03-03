@@ -1,7 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
-
 const HeroSection = ({ title, imageUrl, alt }) => {
   return (
     <section className="bg-gradient-to-r from-cyan-100 via-violet-400 to-blue-300">

@@ -30,10 +30,8 @@ const ContactForm = () => {
       });
 
       if (res.ok) {
-        const finaldata = await res.json();
-
+        await res.json();
         alert("form submitted successfully");
-
         setFormfields({
           username: "",
           email: "",
@@ -52,7 +50,7 @@ const ContactForm = () => {
 
   return (
     <>
-      <section className="">
+      <section>
         <form
           onSubmit={submitForm}
           className="flex flex-col py-1 px-4 gap-3 border border-gray-400 items-center"

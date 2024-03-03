@@ -1,10 +1,6 @@
-import Link from "next/link";
-import React from "react";
-import MovieCard from "../components/MovieCard";
-
+import { MovieCard } from "../components/index";
 const Movies = async () => {
   const url = process.env.RAPID_URL;
-
   const options = {
     method: "GET",
     headers: {

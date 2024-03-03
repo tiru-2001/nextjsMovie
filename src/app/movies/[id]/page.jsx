@@ -1,6 +1,4 @@
-import React from "react";
 import Image from "next/image";
-
 const page = async ({ params: { id } }) => {
   let main_Data;
   const url = `https://netflix54.p.rapidapi.com/title/details/?ids=${id}&lang=en`;

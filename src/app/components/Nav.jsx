@@ -1,6 +1,4 @@
 import Link from "next/link";
-import React from "react";
-
 const Nav = ({ classname, toggle, setToggle }) => {
   return (
     <nav className={`${classname}`}>
